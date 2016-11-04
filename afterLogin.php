@@ -65,8 +65,7 @@ if($row>0) {
 			$_SESSION['usernamel']=$usernamel;
 			
 		
-	echo $type."<br>";
-    echo "Hello,".$row["user"]."! You are Succesfully Logged In";
+	//echo $type."<br>";
 	
 	include 'profile.php';
 
